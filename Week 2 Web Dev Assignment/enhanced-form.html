@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced HTML5 Content & Form</title>
+</head>
+<body>
+ <!-- This is the definition list section -->
+  <section>
+       <h2>Key Terms in Dental Therapy</h2>
+        <dl>
+            <dt>Dental Therapist</dt>
+            <dd>A licensed oral health professional who provides preventive and basic restorative dental care.</dd><br>
+
+            <dt>Fluoride Treatment</dt>
+            <dd>The application of fluoride to the teeth to strengthen enamel and help prevent decay.</dd><br>
+
+            <dt>Sealants</dt>
+            <dd>Thin protective coatings applied to the chewing surfaces of molars to prevent cavities.</dd><br>
+
+            <dt>Oral Hygiene Education</dt>
+            <dd>Teaching patients proper brushing, flossing, and diet habits to maintain good oral health.</dd><br>
+
+            <dt>Scaling and Polishing</dt>
+            <dd>A procedure to remove plaque and tartar from the teeth, especially below the gum line.</dd><br>
+          </dl>
+        </section>
+<!-- ordered and unordered listing here -->
+     <section> 
+       <h1>Top 5 Dental Therapy Procedures</h1>
+        <ol>
+            <li>Scaling and Polishing</li>
+            <li>Fluoride Treatment</li>
+            <li>Fissure Sealants</li>
+            <li>Temporary Fillings</li>
+            <li>Oral Health Education</li>
+        </ol>
+   </section>
+
+    <section>
+      <h2>Essential Dental Therapy Tools</h2>
+        <ul>
+            <li>Ultrasonic Scalers</li>
+            <li>Dental Mirror</li>
+            <li>Explorer/Probe</li>
+            <li>Cotton Pliers</li>
+            <li>Dental Tweezer</li>
+           <ul>
+             <li>College Tweezers</li>
+             <li>Cotton Tweezers</li>
+             <li>Anatomic Tweezers</li>
+             <li>Locking Tweezers</li>
+             <li>Iris Tweezers</li>
+             <li>Dressing Tweezers</li>
+            </ul>
+        </ul>
+    </section>
+
+<!-- here is the Table section -->
+  <section>
+     <h2>Course Schedule</h2>
+   <table border="1">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Topic</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Monday</td>
+        <td>Introduction to Dental Therapy</td>
+        <td>10:00 AM - 12:00 PM</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Dental Trauma</td>
+        <td>10:00 AM - 12:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Preventive Oral Health Techniques</td>
+        <td>10:00 AM - 12:00 PM</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>Cleft lip and Pallete in children</td>
+        <td>10:00 AM - 12:00 PM</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>Serminar Presentation</td>
+        <td>9:00 AM - 11:00 PM</td>
+      </tr>
+    </tbody>
+    </table>
+  </section>
+<!-- video section here -->
+    <section>
+      <h2>Watch My Intro Video</h2>
+      <video controls width="150">
+        <source src="Maryjane Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+<!-- Audio section here -->
+    <section>
+      <h2>Listen to My Onboarding Session to a Patient</h2>
+      <audio controls>
+        <source src="Maryjane audio.mp4" type="audio/mp4">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+<!-- Image section here -->
+    <section>
+      <h2>Dental Therapy Course Poster (MJAY)</h2>
+      <img src="Maryjane.jpg" alt="Dental Therapy Course Poster" width="150">
+    </section>
+<!-- Form section here -->
+    <section>
+      <h2>Dental Therapy Program Registration Form</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend><br>
+
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Enter your full name" style="width: 250px;"><br><br>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email" style="width: 300px;"><br><br>
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" min="18" max="100" required placeholder="Enter your age" style="width: 150px;"><br><br>
+
+          <label for="qualification">Educational Qualification:</label>
+          <input type="text" id="qualification" name="qualification" required placeholder="e.g. ND, HND, BSc, etc."><br><br>
+
+          <label for="address">Address:</label>
+          <input for="text" id="address" name="address" required placeholder="Enter your home address" style="width: 300px;"><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Program Details</legend><br>
+
+          <label for="username">Preferred Username:</label>
+          <input type="text" id="username" name="username" required pattern="[A-Za-z0-9]{8,}" title="At least 8 alphanumeric characters" style="width: 250px;"><br><br>
+
+          <label for="password">Create Password:</label>
+          <input type="password" id="password" name="password" required minlength="6" style="width: 250px;"><br><br>
+
+          <label for="bio">Why do you want to study Dental Therapy?</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Briefly tell us your motivation"></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Registration">
+        <input type="reset" value="Reset Form">
+      </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer style="text-align:center; margin-top: 30px; padding: 15px; background-color: #f0f0f0;">
+       <p>&copy; 2025 Dental Therapy Resources | All rights reserved.</p>
+       <p>Contact: <a href="mailto:Colletemaryjane@gmail.com">info@Mjaydentaltherapy.com</a></p>
+    </footer>
+
+</body>
+</html>
