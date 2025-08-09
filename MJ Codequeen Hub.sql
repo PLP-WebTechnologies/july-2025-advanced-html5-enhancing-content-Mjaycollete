@@ -1,0 +1,3 @@
+CREATE DATABASE mjay;
+USE DATABASE mjay;
+
